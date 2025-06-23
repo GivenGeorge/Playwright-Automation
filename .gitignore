@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Playwright test output and reports
+test-results/
+playwright-report/
+monocart-report/
+results.xml
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode and IDE folders
+.vscode/
+.idea/
+
+
