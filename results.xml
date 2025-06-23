@@ -1,0 +1,50 @@
+<testsuites id="" name="" tests="14" failures="0" skipped="0" errors="0" time="17.241546000000003">
+<testsuite name="ui\e2e.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="UI - dev (Chrome)" tests="2" failures="0" skipped="0" time="11.619" errors="0">
+<testcase name="SauceDemo E2E › Standard user purchase flow" classname="ui\e2e.spec.js" time="7.476">
+</testcase>
+<testcase name="SauceDemo E2E › Locked out user sees error message" classname="ui\e2e.spec.js" time="4.143">
+</testcase>
+</testsuite>
+<testsuite name="ui\e2e.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="UI - qa (Firefox)" tests="2" failures="0" skipped="0" time="6.976" errors="0">
+<testcase name="SauceDemo E2E › Standard user purchase flow" classname="ui\e2e.spec.js" time="5.504">
+</testcase>
+<testcase name="SauceDemo E2E › Locked out user sees error message" classname="ui\e2e.spec.js" time="1.472">
+</testcase>
+</testsuite>
+<testsuite name="api\api.delete.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="API - dev" tests="2" failures="0" skipped="0" time="0.61" errors="0">
+<testcase name="DELETE /booking/:id › should delete the booking" classname="api\api.delete.spec.js" time="0.28">
+</testcase>
+<testcase name="DELETE /booking/:id › should return 404, 405, or 201 when deleting already deleted booking" classname="api\api.delete.spec.js" time="0.33">
+</testcase>
+</testsuite>
+<testsuite name="api\api.get.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="API - dev" tests="1" failures="0" skipped="0" time="0.273" errors="0">
+<testcase name="GET /booking/:id › should retrieve the created booking" classname="api\api.get.spec.js" time="0.273">
+</testcase>
+</testsuite>
+<testsuite name="api\api.post.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="API - dev" tests="1" failures="0" skipped="0" time="0.283" errors="0">
+<testcase name="POST /booking › should create a new booking" classname="api\api.post.spec.js" time="0.283">
+</testcase>
+</testsuite>
+<testsuite name="api\api.put.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="API - dev" tests="1" failures="0" skipped="0" time="0.3" errors="0">
+<testcase name="PUT /booking/:id › should update the booking" classname="api\api.put.spec.js" time="0.3">
+</testcase>
+</testsuite>
+<testsuite name="api\api.delete.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="API - qa" tests="2" failures="0" skipped="0" time="0.523" errors="0">
+<testcase name="DELETE /booking/:id › should delete the booking" classname="api\api.delete.spec.js" time="0.271">
+</testcase>
+<testcase name="DELETE /booking/:id › should return 404, 405, or 201 when deleting already deleted booking" classname="api\api.delete.spec.js" time="0.252">
+</testcase>
+</testsuite>
+<testsuite name="api\api.get.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="API - qa" tests="1" failures="0" skipped="0" time="0.288" errors="0">
+<testcase name="GET /booking/:id › should retrieve the created booking" classname="api\api.get.spec.js" time="0.288">
+</testcase>
+</testsuite>
+<testsuite name="api\api.post.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="API - qa" tests="1" failures="0" skipped="0" time="0.312" errors="0">
+<testcase name="POST /booking › should create a new booking" classname="api\api.post.spec.js" time="0.312">
+</testcase>
+</testsuite>
+<testsuite name="api\api.put.spec.js" timestamp="2025-06-23T18:09:52.288Z" hostname="API - qa" tests="1" failures="0" skipped="0" time="0.428" errors="0">
+<testcase name="PUT /booking/:id › should update the booking" classname="api\api.put.spec.js" time="0.428">
+</testcase>
+</testsuite>
+</testsuites>

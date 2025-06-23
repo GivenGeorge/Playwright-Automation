@@ -1,0 +1,35 @@
+{
+  "inventoryItems": [
+    { "id": "1", "name": "Sauce Labs Backpack", "price": 29.99 },
+    { "id": "2", "name": "Sauce Labs Bike Light", "price": 9.99 },
+    { "id": "3", "name": "Sauce Labs Bolt T-Shirt", "price": 15.99 },
+    { "id": "4", "name": "Sauce Labs Fleece Jacket", "price": 49.99 }
+  ],
+  "booking": {
+    "firstname": "John",
+    "lastname": "Doe",
+    "totalprice": 150,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2023-01-01",
+      "checkout": "2023-01-10"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "updatedBooking": {
+    "firstname": "Jane",
+    "lastname": "Smith",
+    "totalprice": 200,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2023-01-01",
+      "checkout": "2023-01-10"
+    },
+    "additionalneeds": "Lunch"
+  },
+  "checkoutInfo": {
+    "firstname": "John",
+    "lastname": "Doe",
+    "zipcode": "12345"
+  }
+}

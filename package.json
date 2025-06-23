@@ -1,0 +1,40 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+   "type": "module",
+  "description": "End-to-end UI and API automation with Playwright (JavaScript).",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test src/tests/ui",
+    "test:api": "npx playwright test src/tests/api",
+    "test:debug": "npx playwright test --debug",
+    "test:dev": "npx playwright test --project=dev",
+    "test:qa": "npx playwright test --project=qa",
+    "report": "npx playwright show-report",
+    "report:monocart": "npx monocart-reporter",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write .",
+    "ci:test": "npx playwright test --reporter=junit",
+    "ci:report": "npx playwright show-report",
+    "prepare": "npx playwright install --with-deps"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "ui",
+    "api",
+    "testing",
+    "e2e"
+  ],
+  "author": "Given George",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "eslint": "^9.20.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-playwright": "^1.0.0",
+    "junit-report-merger": "^7.0.0",
+    "monocart-reporter": "^1.6.0",
+    "prettier": "^3.5.0"
+  }
+}
