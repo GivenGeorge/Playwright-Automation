@@ -59,8 +59,8 @@ A robust end-to-end and API testing framework using [Playwright](https://playwri
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-    cd YOUR_REPO_NAME
+    git clone https://github.com/GivenGeorge/Playwright-Automation
+    cd Playwright-Automation
     ```
 
 2. **Install dependencies**
